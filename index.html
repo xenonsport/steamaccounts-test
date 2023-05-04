@@ -39,7 +39,13 @@
       <main class="main">
         <section class="filter container">
           <div class="filter__top">
-            <input class="filter__top-input" type="text" id="search" placeholder="Search to buy..." autocomplete="off"/>
+            <input
+              class="filter__top-input"
+              type="text"
+              id="search"
+              placeholder="Search to buy..."
+              autocomplete="off"
+            />
             <span class="filter__top-input-icon">
               <svg
                 fill="#e5e5e5"
@@ -56,169 +62,147 @@
           </div>
           <div class="filter__box">
             <aside class="filter__aside">
-              <div class="filter__aside-btns">
-                <button
-                  class="filter__sort-btn"
-                  data-filter="all"
-                  type="button"
-                >
-                  All
-                </button>
-                <button
-                  class="filter__sort-btn"
-                  data-filter=".category-a"
-                  type="button"
-                >
-                  Azumi
-                </button>
-                <button
-                  class="filter__sort-btn"
-                  data-filter=".category-b"
-                  type="button"
-                >
-                  Mey
-                </button>
-                <button
-                  class="filter__sort-btn"
-                  data-filter=".category-c"
-                  type="button"
-                >
-                  Miho
-                </button>
-                <button
-                  class="filter__sort-btn"
-                  data-filter=".category-d"
-                  type="button"
-                >
-                  Akiko
-                </button>
-                <button
-                  class="filter__sort-btn"
-                  data-filter=".category-e"
-                  type="button"
-                >
-                  Naomi
-                </button>
-              </div>
+              <nav class="filter__nav">
+                <ul class="filter__nav-list">
+                  <li class="filter__nav-item" data-f="all">All</li>
+                  <li class="filter__nav-item" data-f="tokio">Tokio</li>
+                  <li class="filter__nav-item" data-f="osaka">Osaka</li>
+                  <li class="filter__nav-item" data-f="nagano">Nagano</li>
+                  <li class="filter__nav-item" data-f="kyoto">Kyoto</li>
+                  <li class="filter__nav-item" data-f="miyagi">Miyagi</li>
+                </ul>
+              </nav>
             </aside>
             <div class="filter__content">
-              <article class="product-item mix category-a">
+              <article class="product-item box osaka">
                 <img
                   src="images/product-image.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Azumi</h2>
+                <p class="product-item__desc"><span>from:</span> Osaka</p>
                 <span class="product-item__price">15$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-b">
+              <article class="product-item box nagano">
                 <img
                   src="images/product-image4.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Mey</h2>
+                <p class="product-item__desc"><span>from:</span> Nagano</p>
                 <span class="product-item__price">10$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-c">
+              <article class="product-item box kyoto">
                 <img
                   src="images/product-image2.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Miho</h2>
+                <p class="product-item__desc"><span>from:</span> Kyoto</p>
                 <span class="product-item__price">25$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-d">
+              <article class="product-item box tokio">
                 <img
                   src="images/product-image3.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Akiko</h2>
+                <p class="product-item__desc"><span>from:</span> Tokio</p>
                 <span class="product-item__price">20$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-b">
+              <article class="product-item box osaka">
                 <img
                   src="images/product-image4.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Mey</h2>
+                <p class="product-item__desc"><span>from:</span> Osaka</p>
                 <span class="product-item__price">10$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-e">
+              <article class="product-item box nagano">
                 <img
                   src="images/product-image5.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Naomi</h2>
+                <p class="product-item__desc"><span>from:</span> Nagano</p>
                 <span class="product-item__price">30$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-a">
+              <article class="product-item box miyagi">
                 <img
                   src="images/product-image.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Azumi</h2>
+                <p class="product-item__desc"><span>from:</span> Miyagi</p>
                 <span class="product-item__price">15$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-d">
+              <article class="product-item box kyoto">
                 <img
                   src="images/product-image3.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Akiko</h2>
+                <p class="product-item__desc"><span>from:</span> Kyoto</p>
                 <span class="product-item__price">20$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-c">
+              <article class="product-item box tokio">
                 <img
                   src="images/product-image2.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Miho</h2>
+                <p class="product-item__desc"><span>from:</span> Tokio</p>
                 <span class="product-item__price">25$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-d">
+              <article class="product-item box miyagi">
                 <img
                   src="images/product-image3.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Akiko</h2>
+                <p class="product-item__desc"><span>from:</span> Miyagi</p>
                 <span class="product-item__price">20$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-b">
+              <article class="product-item box tokio">
                 <img
                   src="images/product-image4.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Mey</h2>
+                <p class="product-item__desc"><span>from:</span> Tokio</p>
                 <span class="product-item__price">10$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
-              <article class="product-item mix category-e">
+              <article class="product-item box osaka">
                 <img
                   src="images/product-image5.png"
                   alt="product image"
                   class="product-item__img"
                 />
                 <h2 class="product-item__title search">Naomi</h2>
+                <p class="product-item__desc"><span>from:</span> Osaka</p>
                 <span class="product-item__price">30$</span>
                 <button class="product-item__btn">buy now</button>
               </article>
